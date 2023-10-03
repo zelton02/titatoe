@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/titatoe/static/css/main.f180938b.css",
+    "main.js": "/titatoe/static/js/main.af8412da.js",
+    "static/js/787.441641ec.chunk.js": "/titatoe/static/js/787.441641ec.chunk.js",
+    "index.html": "/titatoe/index.html",
+    "main.f180938b.css.map": "/titatoe/static/css/main.f180938b.css.map",
+    "main.af8412da.js.map": "/titatoe/static/js/main.af8412da.js.map",
+    "787.441641ec.chunk.js.map": "/titatoe/static/js/787.441641ec.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f180938b.css",
+    "static/js/main.af8412da.js"
+  ]
+}
