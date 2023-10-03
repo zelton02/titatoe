@@ -56,6 +56,8 @@ function Board({ gameState, setGameState, initialState }) {
   }, [gameState.isFinalLayerComplete]);
 
   const calculateLines = (layers, player) => {
+    layers[1][1][1] = player;
+
     let lines = 0;
   
     const winningCombinations = [
@@ -116,8 +118,6 @@ function Board({ gameState, setGameState, initialState }) {
       [[0, 2, 1], [1, 2, 1], [2, 2, 1]],
       [[0, 2, 2], [1, 2, 2], [2, 2, 2]],
 
-      // Center cube itself
-      [[1, 1, 1], [1, 1, 1], [1, 1, 1]],
     ];
   
     for (const combination of winningCombinations) {
