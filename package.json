@@ -1,7 +1,7 @@
 {
   "name": "titatoe",
   "version": "0.1.0",
-  "homepage": "https://gitname.github.io/titatoe",
+  "homepage": "https://zelton02.github.io/titatoe",
   "private": true,
   "dependencies": {
     "@react-three/drei": "^9.84.2",
